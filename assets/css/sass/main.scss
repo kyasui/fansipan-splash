@@ -26,6 +26,13 @@
 	overflow: hidden;
 
 	float: left;
+
+	@media (max-width: 728px) {    	
+    	text-align: center;
+    	width: 98%;
+    	margin: 20px 1% 0;
+    	clear: both;
+  	}
 }
 
 .tagline {
@@ -35,4 +42,12 @@
 	color: #000;
 	margin: 0 20px;
 	line-height: 101px;
+
+	@media (max-width: 728px) {
+    	text-align: center;
+    	width: 98%;
+    	margin: 0 1% 20px;
+    	clear: both;
+    	line-height: 64px;
+  	}
 }
