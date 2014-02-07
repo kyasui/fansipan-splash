@@ -1,0 +1,9 @@
+{
+  "name": "fan-si-pan",
+  "version": "0.0.1",
+  "dependencies": {
+    "jquery": "~2.0.3",
+    "modernizr": "~2.7.0"
+  }
+}
+

@@ -1,0 +1,38 @@
+@import "libs/mixins";
+@import "libs/functions";
+@import "libs/normalize";
+@import "fonts";
+@import "vars";
+@import "base";
+
+.main-header {
+	position: fixed;
+	bottom: 0;
+	right: 0;
+	left: 0;
+	background: #fff;
+	width: 100%;
+	overflow: hidden;
+}
+
+.fan-si-pan-logo {
+	width: 140px;
+	height: 61px;
+	display: inline-block;
+	margin: 20px;
+	padding: 0;
+	background: url('../img/fan_si_pan_logo.png') no-repeat center center;
+	text-indent: -9999px;
+	overflow: hidden;
+
+	float: left;
+}
+
+.tagline {
+	@include proxima-regular;
+	float: right;
+	font-size: 18px;
+	color: #000;
+	margin: 0 20px;
+	line-height: 101px;
+}
